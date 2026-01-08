@@ -50,3 +50,26 @@ lib/
  └─ mongodb.js              # MongoDB connection
 models/
  └─ Note.js                 # Mongoose schema
+
+⚙️ Setup & Installation
+1️⃣ Clone the repository
+git clone https://github.com/skberi88/noteflow.git
+cd noteflow
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Configure environment variables
+
+Create a .env.local file in the project root:
+
+MONGODB_URI=your_mongodb_connection_string
+
+
+⚠️ Environment variables are excluded from version control for security.
+
+4️⃣ Run the development server
+npm run dev
+
+
+Open 👉 http://localhost:3000
