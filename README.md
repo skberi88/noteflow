@@ -36,43 +36,30 @@ This project is designed as a portfolio-quality application, demonstrating full-
 ---
 🔐 Security Notes
 
-MongoDB credentials are stored using environment variables
-
-.env.local is ignored via .gitignore
-
-Database IP access is configurable via MongoDB Atlas
-
-For production use, stricter IP and auth rules should be applied
+-MongoDB credentials are stored using environment variables
+-.env.local is ignored via .gitignore
+-Database IP access is configurable via MongoDB Atlas
+-For production use, stricter IP and auth rules should be applied
 
 🧠 Design Decisions
 
-Client-side live search avoids unnecessary backend calls
-
-Class-based dark mode ensures predictable theming
-
-Stable library versions were chosen for reliability
-
-UI prioritizes clarity, accessibility, and smooth user experience
+-Client-side live search avoids unnecessary backend calls
+-Class-based dark mode ensures predictable theming
+-Stable library versions were chosen for reliability
+-UI prioritizes clarity, accessibility, and smooth user experience
 
 🚀 Future Enhancements
 
 The following features can be added to scale the application further:
 
-🔐 User Authentication (Login / Signup)
-
-🏷️ Tags & Categories for notes
-
-⭐ Pin / Favorite important notes
-
-🗂️ Rich text editor (Markdown / WYSIWYG)
-
-☁️ Cloud sync across devices
-
-📤 Export notes (PDF / Text)
-
-🔔 Reminders & notifications
-
-📊 Usage analytics dashboard
+-🔐 User Authentication (Login / Signup)
+-🏷️ Tags & Categories for notes
+-⭐ Pin / Favorite important notes
+-🗂️ Rich text editor (Markdown / WYSIWYG)
+-☁️ Cloud sync across devices
+-📤 Export notes (PDF / Text)
+-🔔 Reminders & notifications
+-📊 Usage analytics dashboard
 
 ## 📂 Project Structure
 
