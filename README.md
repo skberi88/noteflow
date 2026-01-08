@@ -9,14 +9,14 @@ This project is designed as a portfolio-quality application, demonstrating full-
 
 ## ✨ Features
 
-- 📝 **Create Notes** – Add notes with a title and content
-- ✏️ **Edit Notes** – Inline editing with instant UI updates
-- 🗑️ **Delete Notes** – Remove notes seamlessly
-- 🔍 **Live Search** – Filter notes by title as you type (client-side)
-- 🌙 **Dark / Light Mode** – Smooth theme toggle
-- ⚡ **Optimistic UI** – Fast and responsive interactions
-- 🎨 **Modern UI** – Gradient backgrounds, hover effects, and polished design
-- 📱 **Responsive Design** – Works across desktop and mobile devices
+- 📝 **Create Notes** – Add notes with a title and content  
+- ✏️ **Edit Notes** – Inline editing with instant UI updates  
+- 🗑️ **Delete Notes** – Remove notes seamlessly  
+- 🔍 **Live Search** – Filter notes by title as you type (client-side)  
+- 🌙 **Dark / Light Mode** – Smooth theme toggle  
+- ⚡ **Optimistic UI** – Fast and responsive interactions  
+- 🎨 **Modern UI** – Gradient backgrounds, hover effects, and polished design  
+- 📱 **Responsive Design** – Works across desktop and mobile devices  
 
 ---
 
@@ -34,32 +34,39 @@ This project is designed as a portfolio-quality application, demonstrating full-
 - **Mongoose**
 
 ---
-🔐 Security Notes
 
--MongoDB credentials are stored using environment variables
--.env.local is ignored via .gitignore
--Database IP access is configurable via MongoDB Atlas
--For production use, stricter IP and auth rules should be applied
+## 🔐 Security Notes
 
-🧠 Design Decisions
+- MongoDB credentials are stored using environment variables  
+- `.env.local` is ignored via `.gitignore`  
+- Database IP access is configurable via MongoDB Atlas  
+- For production use, stricter IP and authentication rules should be applied  
 
--Client-side live search avoids unnecessary backend calls
--Class-based dark mode ensures predictable theming
--Stable library versions were chosen for reliability
--UI prioritizes clarity, accessibility, and smooth user experience
+---
 
-🚀 Future Enhancements
+## 🧠 Design Decisions
+
+- Client-side live search avoids unnecessary backend calls  
+- Class-based dark mode ensures predictable theming  
+- Stable library versions were chosen for reliability  
+- UI prioritizes clarity, accessibility, and smooth user experience  
+
+---
+
+## 🚀 Future Enhancements
 
 The following features can be added to scale the application further:
 
--🔐 User Authentication (Login / Signup)
--🏷️ Tags & Categories for notes
--⭐ Pin / Favorite important notes
--🗂️ Rich text editor (Markdown / WYSIWYG)
--☁️ Cloud sync across devices
--📤 Export notes (PDF / Text)
--🔔 Reminders & notifications
--📊 Usage analytics dashboard
+- 🔐 User Authentication (Login / Signup)  
+- 🏷️ Tags & Categories for notes  
+- ⭐ Pin / Favorite important notes  
+- 🗂️ Rich text editor (Markdown / WYSIWYG)  
+- ☁️ Cloud sync across devices  
+- 📤 Export notes (PDF / Text)  
+- 🔔 Reminders & notifications  
+- 📊 Usage analytics dashboard  
+
+---
 
 ## 📂 Project Structure
 
@@ -76,27 +83,3 @@ lib/
  └─ mongodb.js              # MongoDB connection
 models/
  └─ Note.js                 # Mongoose schema
----
-
-⚙️ Setup & Installation
-1️⃣ Clone the repository
-git clone https://github.com/skberi88/noteflow.git
-cd noteflow
-
-2️⃣ Install dependencies
-npm install
-
-3️⃣ Configure environment variables
-
-Create a .env.local file in the project root:
-
-MONGODB_URI=your_mongodb_connection_string
-
-
-⚠️ Environment variables are excluded from version control for security.
-
-4️⃣ Run the development server
-npm run dev
-
-
-Open 👉 http://localhost:3000
