@@ -9,14 +9,15 @@ This project is designed as a portfolio-quality application, demonstrating full-
 
 ## ✨ Features
 
-- 📝 **Create Notes** – Add notes with a title and content  
+- 📝 **Create Notes** – Add notes with a title and content
 - ✏️ **Edit Notes** – Inline editing with instant UI updates  
 - 🗑️ **Delete Notes** – Remove notes seamlessly  
 - 🔍 **Live Search** – Filter notes by title as you type (client-side)  
 - 🌙 **Dark / Light Mode** – Smooth theme toggle  
 - ⚡ **Optimistic UI** – Fast and responsive interactions  
 - 🎨 **Modern UI** – Gradient backgrounds, hover effects, and polished design  
-- 📱 **Responsive Design** – Works across desktop and mobile devices  
+- 📱 **Responsive Design** – Works across desktop and mobile devices
+- 👥 **User-Auth** - Implement user authentication to allow users to manage private, user-specific notes.
 
 ---
 
